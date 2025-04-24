@@ -7,7 +7,7 @@ import requests
 app = flask.Flask(__name__)
 app.config["SECRET_KEY"] = "seasdad(*2sffcra01^23sdet"
 
-CORS(app)
+CORS(app) 
 
 # Get this URL from the Azure Overview page of your API web app
 api_url = "https://emilysanders-api-htdhbadkgxehebfp.eastus-01.azurewebsites.net/"  # base url for API endpoints
